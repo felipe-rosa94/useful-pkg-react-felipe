@@ -1,6 +1,6 @@
 {
   "name": "useful-pkg-react-felipe",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/felipe-rosa94/useful-pkg-react-felipe/issues"
   },
-  "homepage": "https://github.com/felipe-rosa94/useful-pkg-react-felipe#readme"
+  "homepage": "https://github.com/felipe-rosa94/useful-pkg-react-felipe#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
 }
