@@ -90,7 +90,7 @@ const clearText = text => {
 
 const lastDigits = (text, number = 5) => text.substring(text.length - number)
 
-const apiRequest = async ({url, init}) => axios(url, init)
+const apiRequest = async ({url, init}) => await fetch(url, init).then((data) => data.json()).catch((error) => (error))
 
 const searchEmJSON = search => {
     let pairs = search.split('&'), objeto = {}, pair, i;
