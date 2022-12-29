@@ -114,8 +114,7 @@ const getCep = async (zipcode) => {
             method: 'get'
         }
     }
-    const r = await apiRequest(config)
-    return r.data
+    return await apiRequest(config)
 }
 
 const mobile = () => {
